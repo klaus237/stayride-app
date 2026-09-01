@@ -1,14 +1,6 @@
 [build]
-  publish = "dist/stayride-app/browser"
   command = "npm run build"
-
-[build.environment]
-  ANGULAR_RUNTIME = "false"
-
-[[plugins]]
-  package = "@netlify/angular-runtime"
-  [plugins.inputs]
-    disable = true
+  publish = "dist/stayride-app/browser"
 
 [[redirects]]
   from = "/*"
