@@ -1,0 +1,138 @@
+{
+  "APP": {
+    "NAME": "StayRide",
+    "TAGLINE": "Appartements & Voitures au Cameroun"
+  },
+  "NAV": {
+    "HOME": "Accueil",
+    "EXPLORE": "Explorer",
+    "TRIPS": "Voyages",
+    "MESSAGES": "Messages",
+    "PROFILE": "Profil",
+    "TODAY": "Aujourd'hui",
+    "TASKS": "Tâches",
+    "DASHBOARD": "Tableau de bord"
+  },
+  "AUTH": {
+    "LOGIN": "Connexion",
+    "REGISTER": "Créer un compte",
+    "EMAIL": "Email",
+    "PASSWORD": "Mot de passe",
+    "FORGOT_PASSWORD": "Mot de passe oublié ?",
+    "CONFIRM_PASSWORD": "Confirmer le mot de passe",
+    "FIRST_NAME": "Prénom",
+    "LAST_NAME": "Nom",
+    "PHONE": "Téléphone",
+    "LOGOUT": "Se déconnecter",
+    "ERRORS": {
+      "EMAIL_REQUIRED": "L'email est requis",
+      "EMAIL_INVALID": "Email invalide",
+      "PASSWORD_REQUIRED": "Le mot de passe est requis",
+      "PASSWORD_MIN": "Au moins 8 caractères",
+      "INVALID_CREDENTIALS": "Email ou mot de passe incorrect",
+      "ACCOUNT_SUSPENDED": "Compte suspendu"
+    }
+  },
+  "SEARCH": {
+    "PLACEHOLDER_CITY": "Ville, quartier...",
+    "CHECKIN": "Arrivée",
+    "CHECKOUT": "Départ",
+    "GUESTS": "Voyageurs",
+    "PICKUP": "Prise en charge",
+    "RETURN": "Retour",
+    "SEARCH_BTN": "Rechercher",
+    "STAYS": "Séjours",
+    "CARS": "Voitures",
+    "FILTERS": "Filtres",
+    "NO_RESULTS": "Aucun résultat"
+  },
+  "BOOKING": {
+    "BOOK_NOW": "Réserver maintenant",
+    "CONFIRM": "Confirmer la réservation",
+    "CANCEL": "Annuler",
+    "STATUS": {
+      "PENDING": "En attente",
+      "CONFIRMED": "Confirmée",
+      "ACTIVE": "En cours",
+      "COMPLETED": "Terminée",
+      "CANCELLED": "Annulée",
+      "REJECTED": "Refusée",
+      "REFUNDED": "Remboursée"
+    },
+    "NIGHTS": "nuit(s)",
+    "DAYS": "jour(s)",
+    "CLEANING_FEE": "Frais de nettoyage",
+    "PLATFORM_FEE": "Frais de service",
+    "DISCOUNT": "Réduction",
+    "TOTAL": "Total",
+    "EXTEND": "Prolonger le séjour",
+    "SPECIAL_REQUESTS": "Demandes spéciales"
+  },
+  "PAYMENT": {
+    "CHOOSE_METHOD": "Mode de paiement",
+    "ORANGE_MONEY": "Orange Money",
+    "MTN_MOMO": "MTN MoMo",
+    "STRIPE": "Carte bancaire",
+    "PAYPAL": "PayPal",
+    "CASH": "Espèces",
+    "INSTRUCTIONS": "Instructions",
+    "AWAITING": "En attente de confirmation...",
+    "CONFIRMED": "Paiement confirmé !",
+    "FAILED": "Paiement échoué",
+    "REFERENCE": "Référence"
+  },
+  "CONCIERGE": {
+    "TODAY": "Aujourd'hui",
+    "CHECKINS": "Check-ins",
+    "CHECKOUTS": "Check-outs",
+    "TASKS": "Tâches",
+    "START_TASK": "Démarrer",
+    "COMPLETE_TASK": "Terminer",
+    "REPORT_ISSUE": "Signaler un problème",
+    "TAKE_PHOTO": "Prendre une photo",
+    "ADD_NOTES": "Ajouter des notes",
+    "CONFIRM_CHECKIN": "Confirmer le check-in",
+    "CONFIRM_CHECKOUT": "Confirmer le check-out",
+    "COLLECT_DEPOSIT": "Collecter la caution",
+    "STATUS": {
+      "TODO": "À faire",
+      "IN_PROGRESS": "En cours",
+      "DONE": "Terminé",
+      "ISSUE_REPORTED": "Problème signalé"
+    },
+    "PRIORITY": {
+      "LOW": "Faible",
+      "MEDIUM": "Moyen",
+      "HIGH": "Élevé",
+      "URGENT": "Urgent"
+    }
+  },
+  "ERRORS": {
+    "GENERIC": "Une erreur est survenue",
+    "NETWORK": "Vérifiez votre connexion",
+    "NOT_FOUND": "Introuvable",
+    "UNAUTHORIZED": "Non autorisé",
+    "DATES_UNAVAILABLE": "Ces dates ne sont pas disponibles"
+  },
+  "COMMON": {
+    "LOADING": "Chargement...",
+    "SAVE": "Enregistrer",
+    "CANCEL": "Annuler",
+    "CONFIRM": "Confirmer",
+    "DELETE": "Supprimer",
+    "EDIT": "Modifier",
+    "BACK": "Retour",
+    "SEE_ALL": "Voir tout",
+    "SHARE": "Partager",
+    "SHARE_WHATSAPP": "Partager sur WhatsApp",
+    "CLOSE": "Fermer",
+    "YES": "Oui",
+    "NO": "Non",
+    "NIGHT": "nuit",
+    "NIGHTS": "nuits",
+    "DAY": "jour",
+    "DAYS": "jours",
+    "REVIEWS": "avis",
+    "RATING": "Note"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "APP": {
+    "NAME": "StayRide",
+    "TAGLINE": "Apartments & Cars in Cameroon"
+  },
+  "NAV": {
+    "HOME": "Home",
+    "EXPLORE": "Explore",
+    "TRIPS": "Trips",
+    "MESSAGES": "Messages",
+    "PROFILE": "Profile",
+    "TODAY": "Today",
+    "TASKS": "Tasks",
+    "DASHBOARD": "Dashboard"
+  },
+  "AUTH": {
+    "LOGIN": "Sign In",
+    "REGISTER": "Create Account",
+    "EMAIL": "Email",
+    "PASSWORD": "Password",
+    "FORGOT_PASSWORD": "Forgot password?",
+    "CONFIRM_PASSWORD": "Confirm password",
+    "FIRST_NAME": "First name",
+    "LAST_NAME": "Last name",
+    "PHONE": "Phone",
+    "LOGOUT": "Sign out",
+    "ERRORS": {
+      "EMAIL_REQUIRED": "Email is required",
+      "EMAIL_INVALID": "Invalid email",
+      "PASSWORD_REQUIRED": "Password is required",
+      "PASSWORD_MIN": "At least 8 characters",
+      "INVALID_CREDENTIALS": "Invalid email or password",
+      "ACCOUNT_SUSPENDED": "Account suspended"
+    }
+  },
+  "SEARCH": {
+    "PLACEHOLDER_CITY": "City, neighborhood...",
+    "CHECKIN": "Check-in",
+    "CHECKOUT": "Check-out",
+    "GUESTS": "Guests",
+    "PICKUP": "Pick-up",
+    "RETURN": "Return",
+    "SEARCH_BTN": "Search",
+    "STAYS": "Stays",
+    "CARS": "Cars",
+    "FILTERS": "Filters",
+    "NO_RESULTS": "No results"
+  },
+  "BOOKING": {
+    "BOOK_NOW": "Book now",
+    "CONFIRM": "Confirm booking",
+    "CANCEL": "Cancel",
+    "STATUS": {
+      "PENDING": "Pending",
+      "CONFIRMED": "Confirmed",
+      "ACTIVE": "Active",
+      "COMPLETED": "Completed",
+      "CANCELLED": "Cancelled",
+      "REJECTED": "Rejected",
+      "REFUNDED": "Refunded"
+    },
+    "NIGHTS": "night(s)",
+    "DAYS": "day(s)",
+    "CLEANING_FEE": "Cleaning fee",
+    "PLATFORM_FEE": "Service fee",
+    "DISCOUNT": "Discount",
+    "TOTAL": "Total",
+    "EXTEND": "Extend stay",
+    "SPECIAL_REQUESTS": "Special requests"
+  },
+  "PAYMENT": {
+    "CHOOSE_METHOD": "Payment method",
+    "ORANGE_MONEY": "Orange Money",
+    "MTN_MOMO": "MTN MoMo",
+    "STRIPE": "Credit card",
+    "PAYPAL": "PayPal",
+    "CASH": "Cash",
+    "INSTRUCTIONS": "Instructions",
+    "AWAITING": "Awaiting confirmation...",
+    "CONFIRMED": "Payment confirmed!",
+    "FAILED": "Payment failed",
+    "REFERENCE": "Reference"
+  },
+  "CONCIERGE": {
+    "TODAY": "Today",
+    "CHECKINS": "Check-ins",
+    "CHECKOUTS": "Check-outs",
+    "TASKS": "Tasks",
+    "START_TASK": "Start",
+    "COMPLETE_TASK": "Complete",
+    "REPORT_ISSUE": "Report issue",
+    "TAKE_PHOTO": "Take photo",
+    "ADD_NOTES": "Add notes",
+    "CONFIRM_CHECKIN": "Confirm check-in",
+    "CONFIRM_CHECKOUT": "Confirm check-out",
+    "COLLECT_DEPOSIT": "Collect deposit",
+    "STATUS": {
+      "TODO": "To do",
+      "IN_PROGRESS": "In progress",
+      "DONE": "Done",
+      "ISSUE_REPORTED": "Issue reported"
+    },
+    "PRIORITY": {
+      "LOW": "Low",
+      "MEDIUM": "Medium",
+      "HIGH": "High",
+      "URGENT": "Urgent"
+    }
+  },
+  "ERRORS": {
+    "GENERIC": "An error occurred",
+    "NETWORK": "Check your connection",
+    "NOT_FOUND": "Not found",
+    "UNAUTHORIZED": "Unauthorized",
+    "DATES_UNAVAILABLE": "These dates are not available"
+  },
+  "COMMON": {
+    "LOADING": "Loading...",
+    "SAVE": "Save",
+    "CANCEL": "Cancel",
+    "CONFIRM": "Confirm",
+    "DELETE": "Delete",
+    "EDIT": "Edit",
+    "BACK": "Back",
+    "SEE_ALL": "See all",
+    "SHARE": "Share",
+    "SHARE_WHATSAPP": "Share on WhatsApp",
+    "CLOSE": "Close",
+    "YES": "Yes",
+    "NO": "No",
+    "NIGHT": "night",
+    "NIGHTS": "nights",
+    "DAY": "day",
+    "DAYS": "days",
+    "REVIEWS": "reviews",
+    "RATING": "Rating"
+  }
+}
