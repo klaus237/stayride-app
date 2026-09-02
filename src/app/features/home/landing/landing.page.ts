@@ -314,7 +314,11 @@ import { CarsService } from '../../../core/services/cars.service';
       </div>
 
       <!-- Tab bar mobile -->
-      <div class="sr-tabbar" (touchstart)="$event.stopPropagation()">
+      <div
+        class="sr-tabbar"
+        (touchmove)="$event.preventDefault()"
+        (touchmove)="$event.stopPropagation()"
+      >
         <div class="sr-tabbar__item sr-tabbar__item--active">
           <ion-icon name="home-outline"></ion-icon>
           <span>Accueil</span>
@@ -697,7 +701,12 @@ import { CarsService } from '../../../core/services/cars.service';
         border-top: 1px solid #eee;
         padding: 8px 0 env(safe-area-inset-bottom, 8px);
         z-index: 100;
+        overflow: hidden;
+        touch-action: manipulation;
+        -webkit-user-select: none;
+        user-select: none;
       }
+
       .sr-tabbar__item {
         flex: 1;
         display: flex;
@@ -708,6 +717,8 @@ import { CarsService } from '../../../core/services/cars.service';
         color: #888;
         cursor: pointer;
         padding: 4px 0;
+        touch-action: manipulation;
+        -webkit-tap-highlight-color: transparent;
       }
       .sr-tabbar__item ion-icon {
         font-size: 22px;
