@@ -314,7 +314,7 @@ import { CarsService } from '../../../core/services/cars.service';
       </div>
 
       <!-- Tab bar mobile -->
-      <div class="sr-tabbar">
+      <div class="sr-tabbar" (touchstart)="$event.stopPropagation()">
         <div class="sr-tabbar__item sr-tabbar__item--active">
           <ion-icon name="home-outline"></ion-icon>
           <span>Accueil</span>
@@ -758,6 +758,12 @@ import { CarsService } from '../../../core/services/cars.service';
       }
       .sr-card__img {
         position: relative;
+      }
+      .sr-tabbar {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        touch-action: none;
+        -webkit-overflow-scrolling: auto;
       }
     `,
   ],
