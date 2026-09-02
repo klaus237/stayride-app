@@ -66,3 +66,11 @@
     height: 120px !important;
   }
 }
+.sr-tabbar {
+  overflow-x: hidden;
+  touch-action: pan-y;
+}
+
+.sr-tabbar__item {
+  touch-action: manipulation;
+}
