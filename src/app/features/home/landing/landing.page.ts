@@ -10,6 +10,7 @@ import {
   IonIcon,
   IonRefresher,
   IonRefresherContent,
+  IonFooter,
 } from '@ionic/angular/standalone';
 import { addIcons } from 'ionicons';
 import {
@@ -40,6 +41,7 @@ import { CarsService } from '../../../core/services/cars.service';
     FormsModule,
     RouterLink,
     IonContent,
+    IonFooter,
     // IonSegment,
     // IonSegmentButton,
     // IonLabel,
@@ -314,11 +316,9 @@ import { CarsService } from '../../../core/services/cars.service';
       </div>
 
       <!-- Tab bar mobile -->
-      <div
-        class="sr-tabbar"
-        (touchmove)="$event.preventDefault()"
-        (touchmove)="$event.stopPropagation()"
-      >
+    </ion-content>
+    <ion-footer class="ion-no-border">
+      <div class="sr-tabbar">
         <div class="sr-tabbar__item sr-tabbar__item--active">
           <ion-icon name="home-outline"></ion-icon>
           <span>Accueil</span>
@@ -366,7 +366,7 @@ import { CarsService } from '../../../core/services/cars.service';
           </div>
         }
       </div>
-    </ion-content>
+    </ion-footer>
   `,
   styles: [
     `
@@ -775,6 +775,19 @@ import { CarsService } from '../../../core/services/cars.service';
         overflow-y: hidden;
         touch-action: none;
         -webkit-overflow-scrolling: auto;
+      }
+      ion-footer {
+        background: #fff;
+      }
+
+      .sr-tabbar {
+        display: flex;
+        background: #fff;
+        border-top: 1px solid #eee;
+        padding: 8px 0 env(safe-area-inset-bottom, 8px);
+        z-index: 100;
+        -webkit-user-select: none;
+        user-select: none;
       }
     `,
   ],
