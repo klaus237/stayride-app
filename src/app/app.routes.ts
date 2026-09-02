@@ -7,11 +7,11 @@ export const routes: Routes = [
   { path: '', component: LandingPage },
   { path: 'app/home', component: LandingPage },
 
-  // {
-  //   path: 'auth',
-  //   loadChildren: () =>
-  //     import('./features/auth/auth.routes').then((m) => m.AUTH_ROUTES),
-  // },
+  {
+    path: 'auth',
+    loadChildren: () =>
+      import('./features/auth/auth.routes').then((m) => m.AUTH_ROUTES),
+  },
   {
     path: 'auth/verify-email',
     loadComponent: () =>
